@@ -18,7 +18,7 @@
                     <h5>{{car.color}}</h5>
                 </template>
                 <template #price>
-                    <h5>{{car.price}}</h5>
+                    <h5>R{{car.price}}</h5>
                 </template>
             </card-comp>
         </section>
@@ -52,5 +52,8 @@ components:{
 <style scoped>
     .car{
         border: solid 5px rgb(119, 237, 119);
+        margin-top: 1%;
+        width: 50%;
+        margin-left: 25%;
     }
 </style>
